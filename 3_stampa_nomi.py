@@ -1,6 +1,3 @@
-from re import A
-
-
 Lettera= input("inserisci una lettera: ")
 if (Lettera== "A"):
     print ("Hai scelto Alina!")
