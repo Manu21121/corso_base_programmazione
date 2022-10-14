@@ -5,7 +5,7 @@ while tentativi <= 10 :
     tentativi = tentativi + 1
     Numero = int(input("Prova ad indovinare il numero magico: "))
     if(Numero == NumMagico):
-        print("Hai indovinato, il numero magico era ", NumMagico)
+        print("Complimenti, hai indovinato!")
         break
 else: 
     print("Game Over!")
