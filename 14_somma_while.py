@@ -1,5 +1,3 @@
-from re import I
-
 numero = int(input("Inserisci un numero: "))
 i = 1
 somma = 0
