@@ -13,4 +13,3 @@ while True:
         print("Il numero massimo è ", max)
         print("Il numero minimo è ", min)
         break
-    
