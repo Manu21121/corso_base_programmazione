@@ -1,6 +1,10 @@
 n1 = int(input("Inserisci il primo numero: "))
 n2 = int(input("Inserisci il secondo numero: "))
 op = int(input("Inserisci 1 per effettuare la somma, 2 per la sottrazzione, 3 per la divisione o 4 per la moltiplicazione: "))
+if(op > 4):
+    op = 1
+if(op < 1):
+    op = 1
 if(op == 1):
     risultato = n1 + n2
 if(op == 2):
@@ -12,6 +16,4 @@ if(op == 3):
         risultato = n1 / n2
 if(op == 4):
     risultato = n1 * n2
-if(op > 4):
-    risultato = n1 + n2
 print(risultato)
