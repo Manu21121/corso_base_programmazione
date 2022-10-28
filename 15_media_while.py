@@ -1,9 +1,11 @@
-totale = 0
-count_user_number = 0
+media = 0
+i = 0
 numero = 0
-i = 1
-while True: 
-    numero = int(input("inserisci numeri: "))
-    if(numero == 0):
-        print()
+while True:
+    numero = int(input("Inserisci il numero: "))
+    media = media + numero
+    if numero == 0:
         break
+    i = i + 1
+media = media/i
+print("La media è ",media)
