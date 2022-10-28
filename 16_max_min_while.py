@@ -1,13 +1,11 @@
-max = float("-inf")
-min = float("inf")
-numero = 0
-while True: 
-    numero = int(input("inserisci un numero: "))
-    if(numero == 0):
-        break
-    if(numero >= max):
+numero = int(input("inserisci un numero: "))
+max = numero
+min = numero
+while numero != 0: 
+    if(numero > max):
         max = numero
-    if(numero <= min):
+    if(numero < min):
         min = numero
+    numero = int(input("inserisci un numero: "))
 print("Il numero massimo è ", max)
 print("Il numero minimo è ", min)
