@@ -6,8 +6,3 @@ while i <= numero:
     
     i = i + 1
 print(somma)
-
-
-
-
-
