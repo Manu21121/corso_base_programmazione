@@ -1,14 +1,9 @@
+totale = 0
+count_user_number = 0
+numero = 0
 i = 1
-somma = 0
-media = 0
 while True: 
-    numero = int(input("Inserisci un numero: "))
-    somma = somma + numero 
-    if(i == 1): 
-        media = somma / i
-    else: 
-        media = somma / (i -1)
+    numero = int(input("inserisci numeri: "))
     if(numero == 0):
-        print(media)
+        print()
         break
-    i = i + 1
